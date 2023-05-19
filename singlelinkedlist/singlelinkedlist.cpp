@@ -72,7 +72,7 @@ void List::addNode()   //Menambahkan sebuah Node kedalam list
 	previous->next = nodeBaru;
 }
 
-bool List::listEmpty()
+bool List::listEmpty() 
 {
 	if (START == NULL)
 		return true;

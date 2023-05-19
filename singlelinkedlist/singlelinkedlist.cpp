@@ -38,7 +38,14 @@ void List::addNode()
 
 	Node* nodeBaru = new Node;
 	nodeBaru->noMhs = nim;
-	srtcpy_s(nodeBaru->nama, nm);
+	strcpy_s(nodeBaru->nama, nm);
 
-	if (START == NULL || nim <= START-> noMhs)
+	if (START == NULL || nim <= START->noMhs)
+	{
+		if ((START != NULL) && (nim == START->noMhs))
+		{
+			cout << "\nDuplikasi noMhs tidak diijinkan\n";
+			return;
+		}
+	}
 }

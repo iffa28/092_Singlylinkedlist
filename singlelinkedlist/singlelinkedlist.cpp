@@ -15,7 +15,7 @@ class List
 	Node* START;
 public:
 	List();
-	void addNode();
+	void addNode(); 
 	bool Search(int nim, Node** current, Node** previous);
 	bool listEmpty();
 };

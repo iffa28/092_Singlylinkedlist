@@ -65,6 +65,6 @@ void List::addNode()   //Menambahkan sebuah Node kedalam list
 			return;
 		}
 		previous = current;
-		current = current->next;
+		current = current->next; 
 	}
 }

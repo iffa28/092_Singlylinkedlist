@@ -18,4 +18,16 @@ public:
 	void addNode(); 
 	bool Search(int nim, Node** current, Node** previous);
 	bool listEmpty();
+	bool delNode(int element);
+	void tranverse();
 };
+
+List::List()
+{
+	START = NULL;
+}
+
+void List::addNode() 
+{
+
+}

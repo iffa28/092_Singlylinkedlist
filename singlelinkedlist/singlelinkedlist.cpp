@@ -161,7 +161,7 @@ int main()
 		break;
 		case '3':
 		{
-			mhs.tranverse();
+			mhs.tranverse(); 
 		}
 		break;
 

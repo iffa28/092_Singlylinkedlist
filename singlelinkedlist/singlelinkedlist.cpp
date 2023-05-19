@@ -33,7 +33,7 @@ void List::addNode()
 	char nm[20];
 	cout << "\nMasukkan Nomor Mahasiswa: ";
 	cin >> nim;
-	cout << "\nMasukkan Nama: ";
+	cout << "\nMasukkan Nama: "; 
 	cin >> nm;
 
 	Node* nodeBaru = new Node;
